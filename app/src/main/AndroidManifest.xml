@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/pizza_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Pizzeria">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ActivityListe"
+            android:exported="true"
+            />
+
+        <activity
+            android:name=".ActivityListe1"
+            android:exported="true"
+            />
+
+        <activity
+            android:name=".ActivityItem"
+            android:exported="true"
+            />
+
+        <activity
+            android:name=".ActivityItem1"
+            android:exported="true"
+            />
+
+        <activity
+            android:name=".PizzaDetailActivity"
+            android:exported="true"
+            />
+
+        <activity
+            android:name=".SandwichDetailActivity"
+            android:exported="true"
+            />
+
+        <activity
+            android:name=".OrderActivity"
+            android:exported="true"
+            />
+
+        <activity
+            android:name=".OrderActivity1"
+            android:exported="true"
+            />
+
+        <activity
+            android:name=".ActivityOptions"
+            android:exported="true"
+            />
+
+    </application>
+
+</manifest>
